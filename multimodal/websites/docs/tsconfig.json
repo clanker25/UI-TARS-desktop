@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": [
+      "DOM",
+      "ES2020"
+    ],
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "noEmit": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "resolveJsonModule": false,
+    "moduleResolution": "bundler",
+    "useDefineForClassFields": false,
+    "allowImportingTsExtensions": false,
+    "paths": {
+      "i18n": [
+        "./i18n.json"
+      ],
+      "@theme": [
+        "./theme/index.tsx"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "docs",
+    "theme",
+    "rspress.config.ts"
+  ],
+  "mdx": {
+    "checkMdx": true
+  }
+}

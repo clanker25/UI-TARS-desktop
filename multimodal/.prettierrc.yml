@@ -1,0 +1,6 @@
+# 详细配置请移步：https://prettier.io/docs/en/configuration.html
+---
+proseWrap: never
+singleQuote: false
+semi: false
+trailingComma: 'all'
