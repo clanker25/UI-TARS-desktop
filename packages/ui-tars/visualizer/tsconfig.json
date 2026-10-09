@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": false,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["DOM", "ESNext"],
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "resolveJsonModule": false,
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "strict": true,
+    "types": ["react"]
+  },
+  "exclude": ["**/node_modules"],
+  "include": ["src", "builder"]
+}
